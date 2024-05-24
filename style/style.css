@@ -1,0 +1,294 @@
+
+.container{
+    background-color: antiquewhite;
+    padding-bottom: 50px;
+}
+
+/* ....header-styles... */
+ul li{
+    list-style: none;
+}
+
+nav{
+    margin-left: 228px;
+    margin-right: 240px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+.group-container{
+    padding-top: 123px;
+    padding-bottom: 77px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: bisque;
+
+}
+.brand{
+    text-align: center;
+}
+.more{
+    background-color: rgba(255, 127, 80, 0.945);
+    padding: 10PX 20PX;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.group-banner img{
+    width: 700px;
+    height: 300px;
+}
+
+.features{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 61px;
+    margin-right: 350px;
+    margin-left: 400px;
+    
+}
+
+.features-team{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+}
+
+.features-team img{
+    width: 90%;
+    height: 90%;
+}
+
+.list-description{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.love-heading-1{
+    border: 5px solid maroon;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    padding-left: 10px;
+}
+
+.enjoy{
+    display: flex;
+    margin: 130px 300px 100px 260px;
+    gap: 100px;
+}
+
+.photo img{
+    width: 100%;
+   
+}
+
+.love{
+    background-color:whitesmoke;
+}
+
+.experience{
+    position: relative;
+    bottom: 30px;
+    right: 40px;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255, 127, 80, 0.945);
+}
+
+.facts-1step{
+    margin-left: 255px;
+}
+.facts-box{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+   
+}
+.box img{
+    width: 20%;
+    position: relative;
+    top: 10px;
+}
+.box .email{
+    width: 50;
+    position: relative;
+    bottom: 30px;
+}
+
+.container-sponspors{
+    margin-top: 180px;
+}
+
+.sponspors-container{
+    display: flex;
+    justify-content: center;
+}
+.sponspors{
+    text-align: center;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+}
+
+.sponspors-icon{
+    margin-top: 50px;
+    display: flex;
+    gap: 120px;
+    margin-left: 240px;
+    margin-right: 240px;
+
+}
+
+.sponspors-icon img{
+    width: 100%;
+}
+.footer{
+    width: 1200px;
+    height: 100px;
+    background-color: aqua;
+    margin: 130px auto 195px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/* .....
+                        responsive
+                                                  ..... */
+@media screen and (max-width:668px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    nav ul{
+        gap: 5px;
+    }
+
+    .group-banner img{
+        width: 100%;
+    }
+
+    .features{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .features-team{
+        grid-template-columns:repeat(1,1fr) 
+    }
+
+    .features-team img{
+        width: 100%;
+        height: 100%;
+    }
+
+   
+    .enjoy{
+        display: flex;
+        flex-direction: column;
+        margin:10px;
+        gap: 10px;
+    }
+
+    .experience{
+        margin-left: 38px;
+    }
+
+    .facts-1step{
+        margin-left: 10px;
+    }
+
+    .facts-box{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .container-sponspors{
+        margin-top: 10px;
+    }
+    /* ...sponspors responsive... */
+    .container-sponspors{
+        margin-top: 10px;
+       
+    }
+
+    
+
+    .sponspors-icon{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    
+    .sponspors-icon img{
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 70%;
+    }
+
+    .footer{
+        width:100%;
+        
+        
+        
+    }
+    
+
+    
+    
+    
+        
+        
+    
+
+
+
+
+    
+}
